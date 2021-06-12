@@ -501,7 +501,7 @@ sum of x: tf.Tensor([6 7], shape=(2,), dtype=int32)
 定义变量
 
 ```python
-w = tf.Variable(tf.random.norma([2, 2], mean=0, stddev=1))
+w = tf.Variable(tf.random.normal([2, 2], mean=0, stddev=1))
 ```
 
 ### TensorFlow中的数学运算
